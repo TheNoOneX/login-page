@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.login-form{
+    margin-top: 5%;
+    width: 450px;
+    height: 540px;
+    border: 0.3px solid #c9c9c9;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 8px rgba(142, 140, 140, 0.15), 
+                -3px -3px 8px rgba(255, 255, 255, 0.7);
+}
+#name,#pass{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 35px;
+    border: 0.5px solid #c9c9c9;
+    border-radius: 3px;
+    box-shadow: 3px 3px 8px rgba(142, 140, 140, 0.15), 
+                -3px -3px 8px rgba(255, 255, 255, 0.7);
+    background-color: #ffffff;
+    
+}
+button{
+    text-align: center;
+    background-color: rgb(46, 49, 200);
+    color: white;
+    font-size: 16px;
+    width: 90px;
+    height: 30px;
+    border: none;
+    
+}
+
+.main-register{
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-color:rgb(251, 251, 251);
+    height: 100vh;
+    padding: 30px;
+}
+
+.input-box{
+    width: 280px;
+    height: 23px;
+}
+
+#reg-btn{
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: rgb(17, 68, 155);
+    border: none;
+}
